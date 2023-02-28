@@ -78,8 +78,8 @@ while True:
             print(f'Error downloading image from {link}')
             
     print("Done")
-    print("Wait for 30 giây...")
-    for i in range(30, 0, -1):
+    print("Wait for 80 giây...")
+    for i in range(80, 0, -1):
         print(f"\r{i} seconds left...", end="")
         time.sleep(1)
     if idx > 1000:
